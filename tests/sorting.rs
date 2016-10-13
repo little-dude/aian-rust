@@ -2,7 +2,7 @@ extern crate aian;
 #[macro_use]
 extern crate quickcheck;
 
-use aian::insertion_sort;
+use aian::sorting::insertion_sort;
 
 #[test]
 fn insertion_sort_empty() {
